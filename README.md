@@ -47,6 +47,7 @@ if response.status_code == 200:
 else:
     print('Error fetching data:', response.status_code)
 ```
+More code snippets can be found in the test folder read below:
 ## Project Structure
 The project is organized into two main folders:
 ```
