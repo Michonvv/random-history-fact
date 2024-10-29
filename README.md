@@ -1,8 +1,13 @@
+Here's the updated README with a warning added at the top:
+
+```markdown
 <h1 align="center">
   <img src="logo.png" alt="Random History Fact API" width="400">
 </h1>
 
 # Random History Fact API
+
+**⚠️ WARNING: The API endpoint `https://randomhistoricalfact.000webhostapp.com/fact` is currently offline. If you wish to use this API, you will need to host it yourself.**
 
 Welcome to the Random History Fact API, where you can access fascinating historical facts with ease.<br>
 <a href="https://warm-teammates-951039.framer.app/">Visit the website</a>
@@ -15,6 +20,7 @@ Welcome to the Random History Fact API, where you can access fascinating histori
     "source": "https://parade.com/1099930/marynliles/history-facts/"
 }
 ```
+
 ## Usage
 To get a random historical fact, make an HTTP GET request to the following URL:
 ```url
@@ -33,8 +39,8 @@ fetch('https://randomhistoricalfact.000webhostapp.com/fact')
     .catch(error => {
         console.error('Error fetching data:', error);
     });
-
 ```
+
 ### Example using Python
 You can also access historical facts using Python:
 
@@ -48,7 +54,9 @@ if response.status_code == 200:
 else:
     print('Error fetching data:', response.status_code)
 ```
+
 More code snippets can be found in the test folder read below:
+
 ## Project Structure
 The project is organized into two main folders:
 ```
@@ -61,3 +69,6 @@ Feel free to explore these folders and adapt the provided code snippets for your
 
 ## License
 This project is open-source
+```
+
+Let me know if you need any further modifications!
