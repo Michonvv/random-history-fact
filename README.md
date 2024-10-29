@@ -1,6 +1,3 @@
-Here's the updated README with a warning added at the top:
-
-```markdown
 <h1 align="center">
   <img src="logo.png" alt="Random History Fact API" width="400">
 </h1>
@@ -69,6 +66,3 @@ Feel free to explore these folders and adapt the provided code snippets for your
 
 ## License
 This project is open-source
-```
-
-Let me know if you need any further modifications!
