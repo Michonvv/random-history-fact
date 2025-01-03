@@ -4,10 +4,12 @@
 
 # Random History Fact API
 
-**⚠️ WARNING: The API endpoint `https://randomhistoricalfact.000webhostapp.com/fact` is currently offline. If you wish to use this API, you will need to host it yourself.**
+**⚠️ IMPORTANT WARNING: The demo API endpoint `https://randomhistoricalfact.000webhostapp.com/fact` is OFFLINE and no longer works. If you wish to use this API, you must host it yourself.**
 
 Welcome to the Random History Fact API, where you can access fascinating historical facts with ease.<br>
 <a href="https://warm-teammates-951039.framer.app/">Visit the website</a>
+
+---
 
 ## Example API Response
 
@@ -18,11 +20,14 @@ Welcome to the Random History Fact API, where you can access fascinating histori
 }
 ```
 
+---
+
 ## Usage
 To get a random historical fact, make an HTTP GET request to the following URL:
 ```url
 https://randomhistoricalfact.000webhostapp.com/fact
 ```
+**⚠️ NOTE:** As mentioned above, this endpoint is no longer functional. You will need to host your own version of this API.
 
 ### Example using JavaScript
 Here's how to fetch and display a random historical fact in JavaScript:
@@ -52,7 +57,7 @@ else:
     print('Error fetching data:', response.status_code)
 ```
 
-More code snippets can be found in the test folder read below:
+---
 
 ## Project Structure
 The project is organized into two main folders:
@@ -64,5 +69,7 @@ tests: Provides code snippets in different programming languages to help you int
 ```
 Feel free to explore these folders and adapt the provided code snippets for your specific use case.
 
+---
+
 ## License
-This project is open-source
+This project is open-source and available for your customization and use.
